@@ -2740,7 +2740,7 @@ hr {
 }
 
 .slider-area2 {
-    background-image: url(../img/hero/hero2.png);
+    background-image: url(../img/gallery/about2.png);
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -3534,7 +3534,8 @@ hr {
     position: absolute;
     z-index: 1;
     left: 0;
-    bottom: -73px
+    /* bottom: -73px */
+    top: 360px;
 }
 
 @media (max-width: 575px) {
@@ -4634,7 +4635,7 @@ hr {
 }
 
 .blog_item_img {
-    position: relative
+    position: relative;
 }
 
 .blog_item_img .blog_item_date {
@@ -9592,14 +9593,14 @@ hr {
 }
 
 .slider-area2 {
-    background-image: url(../img/hero/hero2.png);
+    background-image: url('https://res.cloudinary.com/ddx9vnnsx/image/upload/v1596102832/lakehub/Optimized-lk1_kqkie7.jpg');
     background-repeat: no-repeat;
     background-size: cover
 }
 
 .slider-area {
     margin-top: -1px;
-    background-image: url(../img/gallery/LBIIW-1.jpg);
+    background-image: url('https://res.cloudinary.com/ddx9vnnsx/image/upload/v1596102832/lakehub/Optimized-lk1_kqkie7.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover
@@ -9616,7 +9617,7 @@ hr {
 }
 
 .slider-area .hero__caption span {
-    font-size: 18px;
+    font-size: 30px;
     font-family: "Sen", sans-serif;
     font-weight: 600;
     margin-bottom: 35px;
@@ -11486,7 +11487,7 @@ hr {
 }
 
 .blog_item_img {
-    position: relative
+    position: relative;
 }
 
 .blog_item_img .blog_item_date {
@@ -13705,3 +13706,11 @@ del {
 .header-sticky {
     background-color: rgba(4, 9, 30, 0.8);
 }
+
+.slider-area2 {
+    background-image: url(../img/hero/hero2.png);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+l
